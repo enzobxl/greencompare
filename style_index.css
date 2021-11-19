@@ -8,9 +8,12 @@ body {
 
 #Title{
     font-size: 5vw;
+    font-size: 12.5vh;
     text-align: center;
     color: #37b449;
-    margin-top: -6.5%;
+    margin-top: -7.5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Logo{
