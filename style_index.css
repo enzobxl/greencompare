@@ -23,10 +23,16 @@ body {
     margin-top: 1%;
 }
 
+#Nav{
+    border: 3px solid white;
+    border-left: none;
+    border-right: none;
+}
+
 .menu {
-    display: flex;                /* Transformation en flexbox */
-    padding:0;                    /* Suppression des marges internes */       /* Ajout de la couleur d'arrière-plan */
-    justify-content: space-around;/* Alignements des liens dans le menu */
+    display: flex;                      /* Transformation en flexbox */
+    padding:0;                          /* Suppression des marges internes */    
+    justify-content: space-around;      /* Alignements des liens dans le menu */
 }
 .menu li {
     list-style-type: none ;       /* Suppression des puces */
