@@ -58,10 +58,6 @@
     transform: translateY(-100%);
 }
 
-.burger {
-    display: none;
-}
-
 .landing {
     line-height: 80px;
     min-height: 100vh;
