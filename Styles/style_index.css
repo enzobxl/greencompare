@@ -35,6 +35,7 @@
 
 .nav-links li {
     margin: 40px;
+    margin-left: 60px;
     overflow: hidden;
 }
 
@@ -88,4 +89,6 @@
     padding-right: 20px;
     color: white;
 }
+
+
 

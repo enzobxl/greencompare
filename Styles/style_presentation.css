@@ -35,6 +35,7 @@
 
 .nav-links li {
     margin: 40px;
+    margin-left: 60px;
     overflow: hidden;
 }
 
@@ -112,11 +113,13 @@
 }
 
 .orga1 {
-    background: url(images/nos_meilleures_ventes/1.jpg);
+    background: url(../Images/LogoNaio.jpg);
+    background-size: cover;
 }
 
 .orga2 {
-    background: url(images/nos_meilleures_ventes/2.jpg);
+    background: url(../Images/LogoAgreen.jpg);
+    background-size: contain;
 }
 
 .orga-box::before {
@@ -184,4 +187,3 @@
     flex: 1;
     min-width: 350px;
 }
-
