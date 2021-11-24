@@ -186,4 +186,23 @@
     height: 500px;
     flex: 1;
     min-width: 350px;
+}   
+
+.footer {
+    margin-top: -2%;
+    margin-left: 10px;
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 11px; 
+}
+  
+body::-webkit-scrollbar-track {
+    background: white; 
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #2f4e37; 
+    border-radius: 5px; 
 }
