@@ -77,10 +77,14 @@
     text-decoration: none;
 }
 
-.agreen-container {
+.text-container {
     min-height: 80vh;
     background: white;
     padding: 0 100px;
+}
+
+.content{
+    text-align: justify;
 }
 
 .section-title {
