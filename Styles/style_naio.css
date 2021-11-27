@@ -108,6 +108,12 @@
     margin-left: 30px;
 }
 
+.next-org{
+    margin-left: 1170px;
+    text-decoration: none;
+    color: black;
+}
+
 .footer {
     margin-top: -2%;
     margin-left: 10px;
