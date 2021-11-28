@@ -132,3 +132,87 @@ body::-webkit-scrollbar-thumb {
     background-color: #2f4e37; 
     border-radius: 5px; 
 }
+
+.menu {
+	display: flex;
+	gap: 1em;
+	font-size: 18px;
+}
+
+input[type=checkbox]{
+	display: none;
+} 
+
+.hamburger {
+	display: none;
+	font-size: 24px;
+	user-select: none;
+    margin-left: 235px;
+	margin-top: -40px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+	.menu { 
+		display:none;
+		position: absolute;
+		right: 20px;
+		left: 0;
+		text-align: right;
+	}
+
+	.nav-links li {
+		margin: 8px;
+		margin-left: 60px;
+		margin-bottom: 35px;
+		overflow: hidden;
+	}
+
+	input[type=checkbox]:checked ~ .menu{
+		display: block;
+	}
+	.hamburger {
+		display: block;
+	}
+
+	.logo {
+        width: 100px;
+		margin-top: -10px;
+    }
+
+    .landing,
+    .header,
+    .footer {
+        padding: 0 7%;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .big-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .section-title {
+        font-size: 50px;
+        margin-left: -80px;
+    }
+
+    .content{
+        text-align: start;
+    }
+
+    .next-org{
+        margin-left: 41px;
+    }
+
+	.footer{
+		margin-top: 20px;
+        margin-bottom: 5px;
+		margin-left: -15px;
+	}
+	
+}
