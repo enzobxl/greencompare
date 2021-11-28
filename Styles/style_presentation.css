@@ -113,12 +113,12 @@
 }
 
 .orga1 {
-    background: url(../Images/LogoNaio.jpg);
+    background: url(../Images/logoNaio.jpg);
     background-size: cover;
 }
 
 .orga2 {
-    background: url(../Images/LogoAgreen.jpg);
+    background: url(../Images/logoAgreen.jpg);
     background-size: contain;
 }
 
