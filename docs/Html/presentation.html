@@ -14,20 +14,19 @@
         <header id="header" class="header">
             <a href="../index.html" class="logo"> <img src="../Images/logo.png" alt="Logo GreenCompare" class="logo"></a>
             <ul class="nav-links">
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <div class="menu">
-                    <li>
-                        <a href="../index.html" data-text="Accueil">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="naio.html" data-text="Naïo">Naïo</a>
-                    </li>
-                    <li>
-                        <a href="agreenculture.html" data-text="AgreenCulture">AgreenCulture</a>
-                    </li>
-                </div>
+                <li>
+                    <a href="../index.html" data-text="Accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="naio.html" data-text="Naïo">Naïo</a>
+                </li>
+                <li>
+                    <a href="agreenculture.html" data-text="AgreenCulture">AgreenCulture</a>
+                </li>
             </ul>
+            <div class="burger-container">
+                <div class="burger"></div>
+            </div>
         </header>
         <div class="landing">
             <h1 class="big-title"> <a href="#orga-title" class="big-title"> Présentation des <br> organisations</a></h1>
@@ -52,5 +51,14 @@
     <footer id="footer" class="footer">
         <span class="copyrights">&copy; 2021 - GreenCompare</span>
     </footer>
+    <script>
+        const burgerContainer = document.querySelector('.burger-container');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerContainer.addEventListener('click', () => {
+            burgerContainer.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
