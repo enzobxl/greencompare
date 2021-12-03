@@ -108,8 +108,12 @@
     margin-left: 30px;
 }
 
+.CE{
+    width: 700px;
+}
+
 .footer {
-    margin-top: -2%;
+    margin-bottom: 5px;
     margin-left: 10px;
     color: black;
 }

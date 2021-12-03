@@ -104,12 +104,39 @@
     box-shadow: 0 2px 2px #0000001F;
 }
 
+.txt{
+    width: 90%;
+}
+
 .points{
     margin-left: 30px;
 }
 
+.CE{
+    width: 700px;
+}
+
+.logo-tableau{
+    width: 30%;
+    height: 30%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.tab{
+    object-fit: contain;
+    margin-left: -50px;
+}
+
+.tableau-chiffres{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .footer {
-    margin-top: -2%;
+    margin-bottom: 5px;
     margin-left: 10px;
     color: black;
 }
