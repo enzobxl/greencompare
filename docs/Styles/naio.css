@@ -352,11 +352,62 @@ body::-webkit-scrollbar-thumb {
         line-height: 50px;
     }
 
-	#tete{
-		width: 70px;
-		margin-top: 210px;
-		margin-left: -335px;
-	}
+    .text-container {
+        padding-left: 60px;
+        padding-right: 90px;
+    }
+    
+    .content{
+        text-align: start;
+    }
+
+    .CE{
+        width: 270px;
+        margin-left: -20px;
+    }
+
+    .logo-tableau{
+        width: 0%;
+        height: 0%;
+        margin-left: 10px;
+    }
+
+    .tableau-chiffres{
+        flex-direction: column;
+        margin-bottom: -50px;
+        margin-left: 20px;
+    }
+
+    .clique{
+        margin-left: -50%;
+        font-size: 5px;
+        color: white;
+    }
+    
+    .char{
+        margin-left: 40px;
+        width: 50%;
+        height: 50%;
+    }
+    
+    .char2{
+        margin-left: 50px;
+    }
+
+    #oz{
+        width: 30%;
+        height: 30%;
+    }
+    
+    #dino{
+        width: 35%;
+        height: 35%;
+    }
+    
+    #ted{
+        width: 30%;
+        height: 30%;
+    }
 
 	.footer{
 		margin-left: -15px; 
