@@ -104,10 +104,6 @@
     box-shadow: 0 2px 2px #0000001F;
 }
 
-.txt{
-    width: 90%;
-}
-
 .points{
     margin-left: 30px;
 }
@@ -133,6 +129,54 @@
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+}
+
+.products-title-box{
+    display: flex;
+}
+
+.clique{
+    margin-left: 78%;
+    font-size: 15px;
+    color: black;
+}
+
+.char{
+    margin-left: 200px;
+    width: 40%;
+    height: 40%;
+}
+
+.char2{
+    margin-left: 300px;
+}
+
+.robots-box{
+    flex-direction: row;
+    display: flex;
+}
+
+#oz{
+    width: 20%;
+    height: 20%;
+}
+
+#dino{
+    width: 25%;
+    height: 25%;
+}
+
+#ted{
+    width: 20%;
+    height: 20%;
+}
+
+.char:active{
+   transform: scale(1.5);
+}
+
+.robot:active{
+    transform: scale(1.5);
 }
 
 .footer {

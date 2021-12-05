@@ -28,6 +28,12 @@
     width: 180px;
 }
 
+.logo-region{
+    width: 50%;
+    margin-left: 150%;
+    border-radius: 5%;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -122,6 +128,12 @@
 
     .header {
         justify-content: space-between;
+    }
+
+    .logo-region{
+        width: 50%;
+        margin-left: 80%;
+        border-radius: 5%;
     }
 
     .burger-container {
