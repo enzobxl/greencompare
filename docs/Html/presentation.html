@@ -28,11 +28,11 @@
                 <div class="burger"></div>
             </div>
         </header>
-        <div class="landing">
+        <div class="main-title">
             <h1 class="big-title"> <a href="#orga-title" class="big-title"> Présentation des <br> organisations</a></h1>
         </div>
     </div>
-    <div id="orga" class="orga-container">
+    <div class="orga-container">
         <h1 class="section-title" id="orga-title">Organisations</h1>
         <div class="grid-orga">
             <a href="naio.html" class="orga-box no-grid orga1">
@@ -47,17 +47,15 @@
             </a>
         </div>
     </div>
-
-    <footer id="footer" class="footer">
+    <footer class="footer">
         <span class="copyrights">&copy; 2021 - GreenCompare</span>
     </footer>
     <script>
         const burgerContainer = document.querySelector('.burger-container');
         const navLinks = document.querySelector('.nav-links');
-
         burgerContainer.addEventListener('click', () => {
-            burgerContainer.classList.toggle('active');
-            navLinks.classList.toggle('active');
+        burgerContainer.classList.toggle('active');
+        navLinks.classList.toggle('active');
         })
     </script>
 </body>

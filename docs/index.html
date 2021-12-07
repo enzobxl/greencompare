@@ -11,7 +11,7 @@
 
 <body>
     <div class="home-container">
-        <header id="header" class="header">
+        <header class="header">
             <a href="index.html" class="logo"> <img src="Images/logo.png" alt="Logo GreenCompare" class="logo"></a>
             <ul class="nav-links">
                 <li class="here">
@@ -32,21 +32,20 @@
                 <div class="burger"></div>
             </div>
         </header>
-        <div class="landing">
+        <div class="main-title">
             <h1 class="big-title">GreenCompare</h1>
         </div>
     </div>
 
-    <footer id="footer" class="footer">
+    <footer class="footer">
         <span class="copyrights">&copy; 2021 - GreenCompare</span>
     </footer>
     <script>
         const burgerContainer = document.querySelector('.burger-container');
         const navLinks = document.querySelector('.nav-links');
-
         burgerContainer.addEventListener('click', () => {
-            burgerContainer.classList.toggle('active');
-            navLinks.classList.toggle('active');
+        burgerContainer.classList.toggle('active');
+        navLinks.classList.toggle('active');
         })
     </script>
 </body>

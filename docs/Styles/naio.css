@@ -59,7 +59,7 @@
     transform: translateY(-100%);
 }
 
-.landing {
+.main-title {
     line-height: 80px;
     min-height: 100vh;
     display: flex;
@@ -337,7 +337,7 @@ body::-webkit-scrollbar-thumb {
         top: 20%;
     }
 
-    .landing,
+    .main-title,
     .header,
     .footer {
         padding: 0 7%;
