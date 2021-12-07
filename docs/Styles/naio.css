@@ -409,6 +409,14 @@ body::-webkit-scrollbar-thumb {
         height: 30%;
     }
 
+    .char:active{
+        transform: scale(1);
+     }
+     
+     .robot:active{
+         transform: scale(1);
+     }
+
 	.footer{
 		margin-left: -15px; 
         margin-top: 50px;
