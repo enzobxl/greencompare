@@ -80,11 +80,12 @@
 .text-container {
     min-height: 80vh;
     background: white;
-    padding: 0 100px;
 }
 
 .content{
     text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .section-title {
@@ -92,6 +93,7 @@
     font-family: "Abril Fatface", cursive;
     font-size: 50px;
     font-weight: 100;
+    text-align: center;
 }
 
 .section-title::before {
@@ -110,6 +112,50 @@
 
 .CE{
     width: 700px;
+}
+
+.products-title-box{
+    display: flex;
+}
+
+.clique{
+    margin-left: 73%;
+    font-size: 15px;
+    color: black;
+}
+
+.char{
+    margin-left: 200px;
+    margin-top: 40px; 
+    width: 40%;
+}
+
+.robot{
+    margin-left: 8%;
+}
+
+.robot-name{
+    margin-left: 8%;
+}
+
+.robots-box{
+    flex-direction: row;
+    display: flex;
+}
+
+.robot{
+    width: 30%;
+    height: 30%;
+}
+
+.gras{
+    font-weight: 700;
+    color: #2f4e37;
+}
+
+.robot:active{
+    transform: scale(1.5);
+
 }
 
 .footer {
