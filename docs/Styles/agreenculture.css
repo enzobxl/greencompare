@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -329,6 +329,42 @@ body::-webkit-scrollbar-thumb {
     .big-title {
         font-size: 50px;
         line-height: 50px;
+    }
+
+    .content{
+        text-align: start;
+    }
+
+    .CE{
+        width: 270px;
+    }
+
+    .clique{
+        margin-left: -50%;
+        font-size: 5px;
+        color: white;
+    }
+    
+    .char{
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .robots-box{
+        display: block;
+    }
+
+    .robot-name{
+        margin-left: 10%;
+    }
+
+    .robot{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .robot:active{
+        transform: scale(1);
     }
 
 	.footer{
