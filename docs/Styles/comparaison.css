@@ -177,6 +177,12 @@ body::-webkit-scrollbar-thumb {
         justify-content: space-between;
     }
 
+    .home-container {
+        min-height: 100vh;
+        background: url(../Images/comparaisonBGphone.jpg);
+        background-size: cover;
+    }
+
     .burger-container {
         width: 35px;
         height: 30px;
