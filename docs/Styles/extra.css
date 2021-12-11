@@ -10,8 +10,8 @@
 }
 
 .home-container {
-    min-height: 100vh;
-    background: url(../Images/comparaisonBG.jpg);
+    min-height: 20vh;
+    background-color: black;
     background-size: cover;
 }
 
@@ -42,7 +42,7 @@
 .nav-links a {
     font-size: 18px;
     font-weight: 500;
-    color: black;
+    color: white;
     text-decoration: none;
     position: relative;
     display: block;
@@ -57,24 +57,6 @@
 
 .nav-links a:hover {
     transform: translateY(-100%);
-}
-
-.main-title {
-    line-height: 80px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 100px;
-}
-
-.big-title {
-    width: 40%;
-    color: black;
-    font-size: 80px;
-    font-family: "Abril Fatface", cursive;
-    font-weight: 100;
-    text-decoration: none;
 }
 
 .text-container {
@@ -104,19 +86,6 @@
     background: #2f4e37;
     bottom: 0;
     box-shadow: 0 2px 2px #0000001F;
-}
-
-.pestel-naio{
-    width: 50%;
-    height: 50%;
-}
-
-.pestel-container{
-    text-align: center;
-}
-
-.orga-name{
-    margin-left: 8%;
 }
 
 .gras{
@@ -183,12 +152,6 @@ body::-webkit-scrollbar-thumb {
 
     .header {
         justify-content: space-between;
-    }
-
-    .home-container {
-        min-height: 100vh;
-        background: url(../Images/comparaisonBGphone.jpg);
-        background-size: cover;
     }
 
     .burger-container {
@@ -298,19 +261,8 @@ body::-webkit-scrollbar-thumb {
         height: 100px;
     }
 
-    .big-title {
-        font-size: 50px;
-        line-height: 50px;
-    }
-
     .content{
         text-align: start;
-    }
-
-    .pestel-naio{
-        width: 120%;
-        height: 120%;
-        margin-left: -25px;
     }
 
 	.footer{
