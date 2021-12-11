@@ -116,22 +116,20 @@
 
 .products-title-box{
     display: flex;
+    justify-items: center;
 }
 
 .clique{
     margin-left: 73%;
     font-size: 15px;
+    margin-top: 5px;
     color: black;
 }
 
-.char{
+.char-ceol{
     margin-left: 200px;
     margin-top: 40px; 
     width: 40%;
-}
-
-.robot{
-    margin-left: 8%;
 }
 
 .robot-name{
@@ -143,9 +141,27 @@
     display: flex;
 }
 
-.robot{
+.ceol{
     width: 30%;
     height: 30%;
+    margin-left: 8%;
+}
+
+.agcBox{
+    width: 20%;
+    height: 20%;
+    margin-left: 8%;
+}
+
+.agcBoxW{
+    width: 40%;
+    height: 40%;
+    margin-left: 270px;
+}
+
+.char-agc{
+    margin-top: 20px;
+    margin-left: 8%;
 }
 
 .gras{
@@ -153,9 +169,16 @@
     color: #2f4e37;
 }
 
-.robot:active{
+.ceol:active{
     transform: scale(1.5);
+}
 
+.agcBox:active{
+    transform: scale(1.5);
+}
+
+.agcBoxW:active{
+    transform: scale(1.5);
 }
 
 .footer {
@@ -341,11 +364,16 @@ body::-webkit-scrollbar-thumb {
 
     .clique{
         margin-left: -50%;
-        font-size: 5px;
+        font-size: 0px;
         color: white;
     }
     
-    .char{
+    .char-ceol{
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .char-agc{
         margin-left: 5%;
         width: 90%;
     }
@@ -358,9 +386,19 @@ body::-webkit-scrollbar-thumb {
         margin-left: 10%;
     }
 
-    .robot{
+    .ceol{
         margin-left: 10%;
         width: 80%;
+    }
+
+    .agcBox{
+        margin-left: -5%;
+        width: 28%;
+    }
+
+    .agcBoxW{
+        margin-left: 20%;
+        width: 53%;
     }
 
     .robot:active{
