@@ -11,7 +11,7 @@
 
 .home-container {
     min-height: 100vh;
-    background: url(../Images/presBG.jpg);
+    background: url(../Images/presBG.webp);
     background-size: cover;
 }
 
@@ -113,12 +113,12 @@
 }
 
 .orga1 {
-    background: url(../Images/logoNaio.jpg);
+    background: url(../Images/logoNaio.webp);
     background-size: cover;
 }
 
 .orga2 {
-    background: url(../Images/logoAgreen.jpg);
+    background: url(../Images/logoAgreen.webp);
     background-size: contain;
 }
 

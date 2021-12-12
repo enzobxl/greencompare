@@ -11,7 +11,7 @@
 
 .home-container {
     min-height: 100vh;
-    background: url(../Images/comparaisonBG.jpg);
+    background: url(../Images/comparaisonBG.webp);
     background-size: cover;
 }
 
@@ -111,6 +111,11 @@
     height: 50%;
 }
 
+.pestel-agreen{
+    width: 50%;
+    height: 50%;
+}
+
 .pestel-container{
     text-align: center;
 }
@@ -187,7 +192,7 @@ body::-webkit-scrollbar-thumb {
 
     .home-container {
         min-height: 100vh;
-        background: url(../Images/comparaisonBGphone.jpg);
+        background: url(../Images/comparaisonBGphone.webp);
         background-size: cover;
     }
 
@@ -308,6 +313,12 @@ body::-webkit-scrollbar-thumb {
     }
 
     .pestel-naio{
+        width: 120%;
+        height: 120%;
+        margin-left: -25px;
+    }
+
+    .pestel-agreen{
         width: 120%;
         height: 120%;
         margin-left: -25px;
