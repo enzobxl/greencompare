@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #e8e9e4;
 }
 
 .home-container {
@@ -66,10 +66,14 @@ body{
     min-height: 80vh;
 }
 
+.txt-pres{
+    text-align: center;
+}
+
 .content{
-    text-align: justify;
     padding-left: 15%;
     padding-right: 15%;
+    text-align: center;
 }
 
 .section-title {
@@ -93,6 +97,18 @@ body{
 .gras{
     font-weight: 700;
     color: #2f4e37;
+}
+
+a.sito:active{
+    color: #378d37;
+}
+
+a.sito:link{
+    color: #378d37;
+}
+
+a.sito:visited{
+    color: #378d37;
 }
 
 .footer {
@@ -180,7 +196,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 45px;
         font-weight: 100;
         margin-left: -50px;
-        margin-top: 58%;
+        margin-top: 25%;
     }
 
     .burger-container.active .burger {
@@ -262,6 +278,11 @@ body::-webkit-scrollbar-thumb {
 
     .header {
         height: 100px;
+    }
+
+    .txt-pres{
+        width: 80%;
+        margin-left: 35px;
     }
 
     .content{
