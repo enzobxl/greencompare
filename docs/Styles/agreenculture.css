@@ -236,7 +236,7 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(-100%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1305px) {
 
     .header {
         justify-content: space-between;
